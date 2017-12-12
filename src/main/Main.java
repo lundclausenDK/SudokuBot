@@ -6,6 +6,8 @@ public class Main {
         Printer p = new Printer();
         Grid g = new Grid();
 
+        int[][] filledGrid = g.fillGrid(g.getBoardGrid());
+
         p.printGrid(g.getBoardGrid());
 
     }
