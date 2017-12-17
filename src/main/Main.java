@@ -7,9 +7,9 @@ public class Main {
         Grid g = new Grid();
         Solutions s = new Solutions();
 
-        //int[][] filledGrid = g.fillGrid(g.getBoardGrid());
+        int[][] filledGrid = s.beginner(g.getBoardGrid());
+        p.printSolution(filledGrid);
 
-        p.printGrid(g.fillGrid(s.beginner(g.getBoardGrid())));
 
     }
 
